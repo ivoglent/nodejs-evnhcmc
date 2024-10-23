@@ -33,6 +33,26 @@ crawler.scheduleReport(RunType.ONE_MIN, (data) => {
 })
 ```
 
+exmaple with typescript:
+``` 
+import {BaseVirtualSensor} from "./base.virtual.sensor";
+import {EVNCrawler, RunType} from "@ivoglent/nodejs-evnhcmc";
+
+export class EvnSensor extends BaseVirtualSensor{
+    crawler: EVNCrawler;
+    constructor() {
+        super();
+        this.crawler = new EVNCrawler("", "" ,"");
+    }
+    start(): void {
+        this.crawler.scheduleReport(RunType.FIVE_MIN, (data) => {
+            //Process data
+        });
+    }
+
+}
+```
+
 ### Data
 Example data structure:
 ``` 
