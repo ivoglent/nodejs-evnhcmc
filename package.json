@@ -1,8 +1,9 @@
 {
   "name": "@ivoglent/nodejs-evnhcmc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple script for nodejs to get information from EVN HoChiMinh City",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "npm test",
     "run": "node dist/index.js",
