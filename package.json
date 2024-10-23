@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-evnhcmc",
+  "version": "1.0.0",
+  "description": "A simple script for nodejs to get information from EVN HoChiMinh City",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "run": "node dist/index.js",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivoglent/nodejs-evnhcmc.git"
+  },
+  "keywords": [
+    "evnhcmc",
+    "nodejs",
+    "evn"
+  ],
+  "author": "Long Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivoglent/nodejs-evnhcmc/issues"
+  },
+  "homepage": "https://github.com/ivoglent/nodejs-evnhcmc#readme",
+  "devDependencies": {
+    "@types/node": "^22.7.9",
+    "@types/node-cron": "^3.0.11",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "node-cron": "^3.0.3"
+  }
+}
