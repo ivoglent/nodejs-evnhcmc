@@ -3,7 +3,7 @@ Simple library support fetch data from EVN Hochiminh city to get user data repor
 
 ## Installation
 ``` 
-npm install ivoglent/nodejs-evnhcmc
+npm install @ivoglent/nodejs-evnhcmc --save
 ```
 
 ## Usage
